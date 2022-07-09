@@ -1,0 +1,446 @@
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif !important;
+	font-size: 0.7em !important;
+	color: #444444;
+    overflow : auto ! important;
+}
+
+#corps { /*bloc parent*/
+	width: 980px;
+	background: url('../images/bg-corps.jpg');
+	background-position: 0px 0px;
+	background-repeat: repeat-y;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#footer {
+	width: 954px;
+	margin: 0px 0 0 14px;
+	display: block;
+	height: 2.2em;
+	background: #ac1c72;
+	color: #fff;
+	overflow: auto;
+}
+
+#content {
+	width: 953px;
+	min-height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#menu-nord {
+	width: 954px;
+	margin: 0 0 0 14px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#menu-top {
+	width: 954px;
+	margin: 0 0 0 14px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+	text-align: right;
+	color: #ac1c72;
+	font: 1.8em Arial, Helvetica, sans-serif;
+	margin: 0.8em 15px 0 0;
+}
+#contexte h2 {
+	margin: 10px 0px 0px 0px;
+}
+h1 {
+	margin: 0 0 0 23px;
+	padding: 0 0 0 23px;
+	font: 1.5em Arial, Helvetica, sans-serif;
+	color: #ac1c72;
+	/*background: url('../images/h2-puce.png');*/
+	background-position: 2px 2px;
+	background-repeat: no-repeat;
+}
+.session h1 {
+	background-color: #a00258;
+	color: #fff;
+	margin: 10px 0 0px 0;
+	padding: 15px;
+	font: 1.5em Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+h2.domaine {
+	background-color: #34495e;
+	color: #fff;
+	text-align: left;
+	margin: 0px 0 10px 0;
+	padding: 8px 8px 8px 15px;
+	
+	font-weight: bold;
+	font: 1.2em Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+
+.titreActivite {
+	float:left;
+}	
+.titre {
+	font-size: 2.1em;
+	font-weight: bold;
+	color: #444444;
+}
+.soustitre {
+	font-size: 1.8em;
+	color: #606060;
+}
+.gris-clair {
+	color: #676767
+}
+.gris-18pt {
+	color: #606060;
+	font-size: 0.85em;
+}
+.separator {
+	border: #e6e6e6 1px solid;
+	border-bottom: #e6e6e6 7px solid;
+}
+#bandeau {
+	z-index:3 !important;
+	overflow: display;
+}
+#bandeau-nord{
+    background: #FFFFFF;
+}
+#menu-top {
+	height: 1.9em;
+	color: #FFFFFF;
+	/*text-align: right;*/
+	background-color: #444444;
+	border-right: #444444;
+	font-weight: bold;
+	clear: both;
+}
+
+.trace {
+	display: inline-block;
+	vertical-align: middle;
+	line-height:2em;
+	font-size: 0.9em !important;
+}
+
+#menu-top a {
+	color: #FFFFFF;
+	text-decoration: none;
+	margin: 0 15px;
+}
+.aide-top {
+	padding: 1px 0 0 0;
+}
+
+#header {
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border: transparent 1px solid;
+}
+
+#logo {
+	display: block;
+	float: left;
+	margin: 0 0 0 13px;
+	padding: 0 8px 0 0;
+}
+#slogan {
+	display: block;
+	float: left;
+	width: 35%;
+	margin: 15px 0 0 0;
+	padding: 0 0 0 10px;
+	border-left: #464646 1px solid;
+}
+
+#connexion {
+	display: block;
+	float: right;
+	margin: 30px 10px 0 0;
+}
+
+#content_activity {
+	overflow-x: hidden;
+	overflow-y:auto;
+}
+.activiteContent , #fiche_body {
+     font-size: 1.1em;
+}
+
+#activitiesMenubar{
+     font-size: 1.1em;
+}
+/* contenu */
+#contenu {
+	display: block;
+	margin: 0 0 0 28px;
+}
+/*CONTENU PARTIE FORMULAIRES*/
+.full {
+	width: 95%;
+	display: block;
+	float: left;
+	margin: 0 5px;
+}
+caption {
+    background: url("../images/legend-puce.png") no-repeat scroll 0 3px #FFFFFF;
+    color: #AC1C72;
+    margin: 0;
+    padding: 0 0 0 13px;
+    text-align: left;
+    font-size: 1em;
+}
+h3.domaine {
+	color: #A00258;
+	border-bottom: 1px solid #A00258;
+	font-weight: bold;
+	clear: both;
+	font-size: 1.2em;
+	margin: 20px;
+	text-transform: uppercase;
+}
+h4.groupeDecision {
+	background: url("../images/legend-puce.png") no-repeat 3px 13px;
+	color: #A00258;
+	font-size: 1.1em;
+	font-weight: bold;
+	margin-left: 8.33333333%;
+	box-sizing: border-box;
+	background-color: #f7f7f7;
+	border-left: 4px solid #34495e;
+	padding: 10px;
+	margin-bottom: 0px;
+	margin-right: 10px;
+}
+p.exam{
+	border-left: 4px solid #34495e;
+	padding: 10px;
+	background-color: #f7f7f7;
+	margin-left: 8.33333333%;
+	margin-bottom:0px;
+	margin-top: 0px;
+	margin-right: 10px;
+	border-top: 0px;
+	padding-top:10px;
+}
+p.exam.span{
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #00ffff;
+}
+hr {
+	border: #fff 1px solid;
+	border-top: #ac1c72 1px solid;
+	text-align: left;
+	margin-left: 0;
+}
+input {
+}
+label {
+    vertical-align: top;
+}
+.bt,.bt-large,.bt-super-large, .ui-dialog-buttonset button {
+	background: #a01361 url('../images/bt-background.png') top left repeat-x;
+	color: #fff;
+	cursor: pointer;
+	min-width: 120px;
+	min-height: 25px;	
+	font-weight: bold;
+	border: none;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+
+.pied1,.pied2 {
+	font: 0.92em Arial, Helvetica, sans-serif;
+	color: #fff;
+}
+
+.pied1 a,.pied2 a {
+	color: #fff;
+	margin: 0 15px;
+}
+
+.pied1 {
+	display: block;
+	float: left;
+	margin: 5px 0 0 5px;
+}
+
+.pied2 {
+	display: block;
+	float: right;
+	margin: 5px 15px 0 0;
+}
+
+.input-container {
+    clear: left;
+    margin: 5px 0px 0px 0px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 0.1em;
+    padding-top: 0.1em;
+    line-height:1.5em;
+	vertical-align:middle;
+	min-width:30em;
+}
+
+.input-container label,.input-container legend,.input-container .label {
+	color: #444444;
+    margin: 0px 0px 0px 0px;
+    padding-right: 8px;
+	float: left;
+    text-align: right;
+    width: 15em;
+    line-height: 1.1em;
+    background: none;
+}
+
+em {
+	color:#ac1c72;
+	font-size: 0.8em;
+}
+
+
+legend{
+	display: block;
+	margin: 0 0 0 0;
+	padding: 0 0 0 13px;
+	color: #ac1c72;
+	background: #fff url('../images/legend-puce.png') 0px 3px no-repeat;
+}
+
+fieldset .input-container {
+	padding: 0px;
+}
+
+.input-container {
+    clear: left;
+    margin: 5px 0px 0px 0px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 0.1em;
+    padding-top: 0.1em;
+    line-height:1.5em;
+	vertical-align:middle;
+	min-width:30em;
+}
+
+.input-container label,.input-container legend,.input-container .label {
+	color: #444444;
+    margin: 0px 0px 0px 0px;
+    padding-right: 8px;
+	float: left;
+    text-align: right;
+    width: 15em;
+    line-height: 1.1em;
+    background: none;
+}
+
+.input-container.leftRadio label {
+	float: none;
+    line-height: inherit;
+}
+
+.input-container .label {
+    line-height: inherit;
+}
+
+.moitie .input-container label,.moitie .input-container legend {
+	min-width: 10em;
+	width: 40%;
+}
+
+fieldset {
+	border: none;
+	clear: both;/*sinon bug affichage ie*/
+}
+fieldset,select,input {
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* connexion */
+.vignette {
+	display: block;
+	float: left;
+	width: 32px;
+	margin: 10px 5px 0 0;
+}
+
+.user {
+	display: block;
+	float: left;
+	margin: 10px 5px 0 0;
+}
+
+.message-erreur{
+	font-size: 1.2em;
+	font-weight: bold;
+	height: auto;
+	color: #E00000;
+	padding-left: 30px;
+	background: #FFF0F0 url('../images/pict-erreur.png') top left no-repeat;
+	min-height: 20px;
+}
+
+.message-info{
+	font-size: 1.1em;
+	height: auto;
+	color: black;
+	padding: 15px 0px 15px 30px;
+	background: #077ff714 url('../images/pict-info.png') top left no-repeat;
+	min-height: 20px;
+}
+
+pre {
+	 padding-top: 2px;
+     font-family: Arial,Helvetica,sans-serif;
+     font-size: 1em;
+     margin: 0;
+	 white-space: pre-wrap;       /* css-3 */
+	 white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	 white-space: -pre-wrap;      /* Opera 4-6 */
+	 white-space: -o-pre-wrap;    /* Opera 7 */
+	 word-wrap: break-word;       /* Internet Explorer 5.5+ */ 
+}
+
+.deconnexion {
+	display: block;
+	float: right;
+	width: 250px;
+	height: 1.8em;
+	margin: 0;
+	padding: 1px 0 0 0;
+	width: auto;
+	background: #6f675c;
+	text-align: center;
+}
+
+.etapegestion i{
+	font-size:22px;
+	color:white;
+}
+
+.hidden {
+	display: none;
+}
+
+.loginBoutons {
+	margin-top: 10px;
+	text-align: center;
+}
